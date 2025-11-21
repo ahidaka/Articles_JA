@@ -1,6 +1,6 @@
 ---
-title: "USBView のインストールと使い方"
-emoji: "??"
+title: "Windows USBView のインストールと使い方"
+emoji: "🖥️"
 type: "tech"
 topics: ["windows", "ハードウェア", "デバイスドライバー"]
 published: true
