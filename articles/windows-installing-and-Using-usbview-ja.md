@@ -4,7 +4,7 @@ emoji: "🖥️"
 type: "tech"
 topics: ["windows", "ハードウェア", "デバイスドライバー"]
 published: true
-slug: "windows-installing-and-Using-usbview-ja"
+slug: "windows-installing-and-using-usbview-ja"
 ---
 Windows の USB ハードウェアがらみのトラブルを見極める手段として、開発者向けのツールとして有名な USBView があります。誰でも容易に使えるツールですが、インストール手順が少しだけ面倒なので紹介します。
 
