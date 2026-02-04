@@ -50,7 +50,8 @@ Windows 11のコア分離とその中心的な役割を持つメモリ整合性�
 
 「**コア分離**」ダッシュボードの各項目に基づいて説明します。「**コア分離**」ダッシュボードは、設定メニューの **プライバシーとセキュリティ** → **Windows セキュリティ** → **デバイスセキュリティ **と選択し、以下の「Windows セキュリティ」パネルの** デバイス セキュリティ** ダッシュボードで、**コア分離の詳細** をクリックして表示します。
 
-![画像](/images/windows-memory-integrity-and-core-isolation-ja/559068f2-a882-4cbb-a7eb-2b2f0fb326ae.png)](/images/windows-memory-integrity-and-core-isolation-ja/559068f2-a882-4cbb-a7eb-2b2f0fb326ae.png)
+![画像](/images/windows-memory-integrity-and-core-isolation-ja/559068f2-a882-4cbb-a7eb-2b2f0fb326ae.png)
+*デバイスセキュリティ ダッシュボード*
 
 この「**コア分離**」ダッシュボードは後述の様に、実行環境ハードウェアデバイスの状況によって、**表示内容や設定項目が異なる場合がある**ので、十分に注意してください。現在確認している中では今のところ、一番設定が多い場合は次のメニューが表示されます。これらの設定メニューのうち、ハードウェア仮想化によるコア分離技術に依存する設定項目は、実質的にはメモリ整合性だけです。したがってこの「コア分離」のダッシュボード名や構成は今後、変わる可能性があります。
 
@@ -73,7 +74,7 @@ Windows 11のコア分離とその中心的な役割を持つメモリ整合性�
 
 ### 参考ページ
 
-- [LEARN カーネル DMA 保護](https://learn.microsoft.com/ja-jp/windows/security/information-protection/kernel-dma-protection-for-thunderbolt?WT.mc_id=WDIT-MVP-35878)
+- [カーネル DMA 保護](https://learn.microsoft.com/ja-jp/windows/security/information-protection/kernel-dma-protection-for-thunderbolt?WT.mc_id=WDIT-MVP-35878)
 
 ## ローカルセキュリティ機関の保護
 
@@ -83,7 +84,7 @@ Windows 11のコア分離とその中心的な役割を持つメモリ整合性�
 
 - [追加の LSA の保護の構成](https://learn.microsoft.com/ja-jp/windows-server/security/credentials-protection-and-management/configuring-additional-lsa-protection?WT.mc_id=WDIT-MVP-35878)
 
-Microsoft Defender Credential Guard
+## Microsoft Defender Credential Guard
 
 パスワード等のクレデンシャル情報を管理する、仮想化ベースのセキュリティ機構。従来のLSA（ローカル セキュリティ 機関）とは分離して、ハイパーバイザー上に仮想化して、有効化状態を変更できます。
 
@@ -103,9 +104,12 @@ Microsoft Defender Credential Guard
 ## コア分離設定ダッシュボード 表示例
 
 ![画像](/images/windows-memory-integrity-and-core-isolation-ja/17b2e290-a894-43d4-868d-2e9d2177d6ab.png)
+*昔の Windows PC の コア分離だけのメニュー*
 
 ![画像](/images/windows-memory-integrity-and-core-isolation-ja/58081f20-ac12-4b67-822a-8e750db9a2a2.png)
+*Windows 10 対応PCで見かける「メモリアクセス保護」「Microsoft の脆弱なドライバーのブロックリスト」を持つメニュー* 
 
 ![画像](/images/windows-memory-integrity-and-core-isolation-ja/1f18a923-14ca-4595-8097-48f0084465a7.png)
+*Windows 11 対応PCの「ローカルセキュリティ機関の保護」を待つメニュー*
 
 以上。
